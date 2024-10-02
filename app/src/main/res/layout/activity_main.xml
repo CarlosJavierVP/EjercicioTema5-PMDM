@@ -8,10 +8,11 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="96dp"
-        android:layout_height="32dp"
+        android:id="@+id/textDate"
+        android:layout_width="280dp"
+        android:layout_height="29dp"
         android:text="@string/naciste"
+        android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,21 +39,33 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintTop_toBottomOf="@id/textDate"
         app:layout_constraintVertical_bias="0.21" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="296dp"
-        android:layout_height="37dp"
+        android:layout_width="301dp"
+        android:layout_height="52dp"
         android:fontFamily="serif"
         android:text="@string/calcula_el_n_mero_de_d_as_desde_tu_fecha_de_nacimientomero_de_d_as_desde_tu_fecha_de_nacimiento"
         android:textAlignment="center"
         android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.501"
-        tools:layout_editor_absoluteX="66dp" />
+        app:layout_constraintVertical_bias="0.501" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="206dp"
+        android:layout_height="20dp"
+        android:text="@string/hoy_es"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/textDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
