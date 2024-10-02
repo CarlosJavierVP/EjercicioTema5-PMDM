@@ -37,8 +37,8 @@ class MainActivity : AppCompatActivity(){
 
         var dateShow = DatePickerDialog(this,
             {
-            datePicker, i, i1, i2 -> textDate.text = "Naciste el $i2/${i1+1}/$i"
-                var ar = calculaDias(month,i1+1,day,i,year,i2)
+            _, anho, mes, dia -> textDate.text = "Naciste el $anho/${mes+1}/$dia"
+                var ar = calculaDias(month,mes+1,day,dia,year,anho)
                 t.text = getString(R.string.calcular, ar[0],ar[1])
 
             }, year, month, day)
