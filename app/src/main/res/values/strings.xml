@@ -2,7 +2,7 @@
     <string name="app_name">EjerciciosTema5</string>
     <string name="naciste">Naciste...</string>
     <string name="fecha_de_nacimiento">Fecha de nacimiento</string>
-    <string name="calcula_el_número_de_d_as_desde_tu_fecha_de_nacimiento">%1$sCalcula el número de días desde tu fecha de nacimiento</string>
+    <string name="calcula_el_número_de_d_as_desde_tu_fecha_de_nacimiento">Calcula el número de días desde tu fecha de nacimiento</string>
     <string name="calcula_el_n_mero_de_d_as_desde_tu_fecha_de_nacimientomero_de_d_as_desde_tu_fecha_de_nacimiento" />
     <string name="hoy_es">Hoy es</string>
     <string name="calcular">Tienes %1$d años y %2$d dias</string>
